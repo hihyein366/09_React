@@ -22,9 +22,7 @@ const FunctionEx = () => {
         /* 리액트 컴포넌트에 class 추가 시 className 이라고 작성 */
         <>
             <h2 className='red'>함수형 컴포넌트 입니다</h2>
-
             <hr/>
-
             <ClickCount/>
         </>
     );
