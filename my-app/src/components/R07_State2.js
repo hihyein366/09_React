@@ -11,10 +11,14 @@ const StateEx2 = (props) => {
     return(
         <div className='count-container'>
             <button onClick={() => { 
-                setCount(count-Number(props.step)) }}>-{props.step}</button>
+                setCount(count-Number(props.step)) }}>-{props.step}
+                </button>
+
             <h3>{count}</h3>
+
             <button onClick={() => { 
-                setCount(count+Number(props.step)) }}>+{props.step}</button>
+                setCount(count+Number(props.step)) }}>+{props.step}
+                </button>
         </div>
     );
 }
