@@ -1,0 +1,9 @@
+.minus {
+  border-radius: 5px;
+  background-color: cyan;
+}
+
+.plus {
+  border-radius: 5px;
+  background-color: magenta;
+}
